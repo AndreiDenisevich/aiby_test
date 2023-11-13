@@ -1,0 +1,35 @@
+// breakpoints
+
+$maxMediaWidth-iPhone-14-pro-max: calc(430px - 1px);
+$maxMediaWidth-iPhone-14-plus: calc(428px - 1px);
+$maxMediaWidth-iPhone-14: calc(390px - 1px);
+$maxMediaWidth-iPhone-11-pro: calc(375px - 1px);
+$maxMediaWidth-iPhone-8-plus: calc(414px - 1px);
+$maxMediaWidth-iPhone-SE: calc(320px - 1px);
+
+$maxMediaHeight-iPhone-14-pro-max: calc(932px - 1px);
+$maxMediaHeight-iPhone-14-plus: calc(926px - 1px);
+$maxMediaHeight-iPhone-14: calc(844px - 1px);
+$maxMediaHeight-iPhone-11-pro: calc(812px - 1px);
+$maxMediaHeight-iPhone-8-plus: calc(736px - 1px);
+$maxMediaHeight-iPhone-SE: calc(568px - 1px);
+
+// fonts
+
+$font: 'SF Pro Display';
+
+// size 
+
+$font-size: 1rem;
+
+//colors
+
+$color-transparent: rgba(0, 0, 0, 0);
+$color-white: #FFF;
+    $color-white_50: rgba(255, 255, 255, 0.50);
+    $color-white_30: rgba(255, 255, 255, 0.30);
+    $color-white_10: rgba(255, 255, 255, 0.10);
+$color-black: #000;
+    $color-black_50: rgba(0, 0, 0, 0.50);
+$color-gray-blue: #141131;
+$color-darkblue: #070B33;

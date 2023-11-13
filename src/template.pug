@@ -1,0 +1,50 @@
+doctype html
+html(lang= 'en' class='overflow-hidden-mobile')
+    head
+        meta(charset='utf-8')
+        meta(name='viewport' content='width=device-width')
+        link(rel='apple-touch-icon' sizes='72x72' href='https://aiby.com/apple-icon-72x72.png')
+        link(rel='icon' type='image/png' sizes='32x32' href='https://aiby.com/aiby_favicon-32x32.ico')
+        title= 'AIBY TEST BANNER'
+    body
+    .banner
+        a.banner__close(href='#')
+            svg(xmlns='http://www.w3.org/2000/svg' width='14' height='14' viewBox='0 0 14 14')
+                path(fill-rule='evenodd' clip-rule='evenodd' d='M7.01053 6.59968L12.4165 1.19368L12.8144 1.59155L7.4084 6.99754L13 12.5892L12.5892 13L6.99754 7.4084L1.59155 12.8144L1.19368 12.4165L6.59968 7.01053L1 1.41085L1.41085 1L7.01053 6.59968Z' stroke='white' stroke-opacity='0.4' stroke-linejoin='round')
+        .banner__content
+            h1.banner__title
+            .banner__card-list
+                .banner__card-item
+                    .banner__card-item-content
+                        img.banner__card-item-img(srcset=`${require('./images/img-card-1.png')}, ${require('./images/img-card-1@2x.png')} 2x, ${require('./images/img-card-1@3x.png')} 3x` alt='image card')
+                        p.banner__card-item-text
+                .banner__card-item
+                    .banner__card-item-content
+                        img.banner__card-item-img(srcset=`${require('./images/img-card-2.png')}, ${require('./images/img-card-2@2x.png')} 2x, ${require('./images/img-card-2@3x.png')} 3x` alt='image card')
+                        p.banner__card-item-text
+                .banner__card-item
+                    .banner__card-item-content
+                        img.banner__card-item-img(srcset=`${require('./images/img-card-3.png')}, ${require('./images/img-card-3@2x.png')} 2x, ${require('./images/img-card-3@3x.png')} 3x` alt='image card')
+                        p.banner__card-item-text
+            form.banner__selector-list
+                .banner__selector-item
+                    input.banner__selector-radio(type='radio' id='apple' name='selector-radio' value='https://apple.com/' checked)
+                    label.label-with-border(for='apple')
+                        div
+                            span.banner__selector-title
+                            span.banner__selector-text
+                        div
+                            span.banner__selector-text
+                        span.banner__selector-label
+                .banner__selector-item
+                    input.banner__selector-radio(type='radio' id='google' name='selector-radio' value='https://google.com/')
+                    label(for='google')
+                        div
+                            span.banner__selector-title
+                        div
+                            span.banner__selector-text
+                a.banner__selector-link(href='#') 
+            .banner__list-links
+                a.banner__link(href='#')
+                a.banner__link(href='#')
+                a.banner__link(href='#')
