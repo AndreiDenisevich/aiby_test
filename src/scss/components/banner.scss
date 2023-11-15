@@ -158,7 +158,7 @@
     }
     &__selector-radio {
         display: none;
-        & + label {
+        &-label {
             display: flex;
             justify-content: space-between;
             align-items: center;
@@ -166,7 +166,8 @@
             backdrop-filter: blur(5.436563491821289px);
             transition: all .25s ease-out;
             height: 56px;
-            & > div {
+            cursor: pointer;
+            &-col {
                 &:first-child {
                     margin-right: 1.5rem;
                 }
@@ -187,12 +188,12 @@
             }
         }
         &:not(:checked ) {
-            & + label {
+            & + .banner__selector-radio-label {
                 background-color: $color-white_10;
             }            
         }
         &:checked {
-            & + label {
+            & + .banner__selector-radio-label {
                 background-color: $color-white_30;
             }
         }

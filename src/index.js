@@ -59,11 +59,11 @@ window.onload = function () {
             .querySelector('.banner__selector-label')
             .innerHTML = langTextArr[5][1];
         selectorItem[0]
-            .getElementsByTagName('div')[0]
+            .getElementsByClassName('banner__selector-radio-label-col')[0]
             .querySelector('.banner__selector-text')
             .innerHTML = langTextArr[6][1].replace(/{{price}}/g, price.year);
         selectorItem[0]
-            .getElementsByTagName('div')[1]
+            .getElementsByClassName('banner__selector-radio-label-col')[1]
             .querySelector('.banner__selector-text')
             .innerHTML = langTextArr[8][1].replace(/{{price}}/g, price.week_yearly);
 
